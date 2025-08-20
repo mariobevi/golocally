@@ -1,3 +1,4 @@
+// next.config.mjs
 import createMDX from '@next/mdx';
 
 const withMDX = createMDX({
@@ -8,10 +9,9 @@ const withMDX = createMDX({
 const base = {
   pageExtensions: ['ts', 'tsx', 'mdx'],
   images: {
-    remotePatterns: [
-      { protocol: 'https', hostname: 'images.unsplash.com' }
-    ]
+    remotePatterns: [{ protocol: 'https', hostname: 'images.unsplash.com' }]
   }
 };
 
 export default withMDX(base);
+
