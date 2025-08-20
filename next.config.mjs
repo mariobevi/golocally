@@ -1,7 +1,7 @@
 import createMDX from '@next/mdx';
 
 const withMDX = createMDX({
-  extension: /\.mdx?$/ // enables .mdx pages in /app
+  extension: /\.mdx?$/
 });
 
 /** @type {import('next').NextConfig} */
