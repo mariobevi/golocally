@@ -1,7 +1,7 @@
 {
   "name": "golocally-web",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.3.1",
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/mdx": "^14.2.5",
     "clsx": "^2.1.0",
     "framer-motion": "^11.1.7",
     "lucide-react": "^0.460.0",
@@ -29,3 +30,4 @@
     "typescript": "5.5.4"
   }
 }
+
