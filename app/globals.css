@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Montserrat from Google Fonts (already linked in layout.tsx) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap');
+
+/* Brand Colors */
+:root {
+  --brand-deep: #233a25;
+  --brand-navy: #1a2a67;
+  --brand-burgundy: #492b2f;
+  --brand-red: #db3a2f;
+  --brand-sky: #6295ff;
+  --brand-lime: #cdfd4f;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-white text-gray-900 font-sans;
+}
+
+.dark body {
+  @apply bg-neutral-950 text-neutral-100;
+}
+
+/* Reusable Utilities */
+.container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+}
+
+.link {
+  @apply underline underline-offset-4 decoration-transparent hover:decoration-current;
+}
+
+/* Blog / Prose styling */
+.prose-custom :where(h1,h2,h3) {
+  color: var(--brand-deep);
+}
