@@ -14,7 +14,6 @@ import {
   HeartHandshake,
 } from 'lucide-react';
 import Link from 'next/link';
-import { ChatDemo } from '@/components/interactive/ChatDemo';
 import { Features, Cities, Pricing, Reviews, BlogPreview, FAQ, Newsletter } from '@/components/Sections';
 import { Tech } from '@/components/sections/Tech';
 import { StickyCTA } from '@/components/sections/StickyCTA';
